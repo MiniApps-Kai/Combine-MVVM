@@ -13,6 +13,8 @@
 		8BAB6D4F2BEFB56B00640B19 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 8BAB6D4E2BEFB56B00640B19 /* Base */; };
 		8BAB6D512BEFB56D00640B19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BAB6D502BEFB56D00640B19 /* Assets.xcassets */; };
 		8BAB6D542BEFB56D00640B19 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 8BAB6D532BEFB56D00640B19 /* Base */; };
+		8BAB6D5C2BEFB5A000640B19 /* QiitaItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BAB6D5B2BEFB5A000640B19 /* QiitaItem.swift */; };
+		8BAB6D5E2BEFB5D400640B19 /* QiitaViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BAB6D5D2BEFB5D400640B19 /* QiitaViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		8BAB6D502BEFB56D00640B19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8BAB6D532BEFB56D00640B19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8BAB6D552BEFB56D00640B19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BAB6D5B2BEFB5A000640B19 /* QiitaItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QiitaItem.swift; sourceTree = "<group>"; };
+		8BAB6D5D2BEFB5D400640B19 /* QiitaViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QiitaViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				8BAB6D472BEFB56B00640B19 /* AppDelegate.swift */,
 				8BAB6D492BEFB56B00640B19 /* SceneDelegate.swift */,
 				8BAB6D4B2BEFB56B00640B19 /* ViewController.swift */,
+				8BAB6D5D2BEFB5D400640B19 /* QiitaViewModel.swift */,
+				8BAB6D5B2BEFB5A000640B19 /* QiitaItem.swift */,
 				8BAB6D4D2BEFB56B00640B19 /* Main.storyboard */,
 				8BAB6D502BEFB56D00640B19 /* Assets.xcassets */,
 				8BAB6D522BEFB56D00640B19 /* LaunchScreen.storyboard */,
@@ -139,7 +145,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8BAB6D4C2BEFB56B00640B19 /* ViewController.swift in Sources */,
+				8BAB6D5C2BEFB5A000640B19 /* QiitaItem.swift in Sources */,
 				8BAB6D482BEFB56B00640B19 /* AppDelegate.swift in Sources */,
+				8BAB6D5E2BEFB5D400640B19 /* QiitaViewModel.swift in Sources */,
 				8BAB6D4A2BEFB56B00640B19 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
